@@ -1,0 +1,44 @@
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+::-webkit-scrollbar:hover {
+    width: 10px;
+    height: 10px;
+}
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background: #f7f7f7;
+    }
+
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(221, 221, 221);
+        border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(211, 211, 211);
+}
+
+::-webkit-scrollbar-corner{
+      border-radius: 3px;
+
+  }
+
+
+  .hov-jump:hover{
+    transform: scale(1);
+}
+
+.z-8th{
+    z-index: 8888;
+}
